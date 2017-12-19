@@ -4,11 +4,14 @@ module.exports = {
 
   // Map of new blocks
   blocks: {
-    pel : {
+    eel : {
       process : function(block) {
+        if (this.output.name !== "ebook") {
+            return "";
+        }
         var emptyLineCount = block.args[0] || 1;
         var i = 1;
-        var body = ""
+        var body = "";
         while (i <= emptyLineCount) {
           body += "</br> ";
           i++;
