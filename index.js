@@ -10,7 +10,8 @@ module.exports = {
         var i = 1;
         var body = ""
         while (i <= emptyLineCount) {
-          body += "</br> "
+          body += "</br> ";
+          i++;
         }
         return body;
       }
