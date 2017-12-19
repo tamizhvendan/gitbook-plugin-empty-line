@@ -1,0 +1,30 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "A gitbook plugin to insert empty lines in gitbook",
+  "main": "y",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {}
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tamizhvendan/gitbook-plugin-empty-line.git"
+  },
+  "keywords": [
+    "gitbook",
+    "gitbook-plugin",
+    "gitbook-empty-line"
+  ],
+  "author": "Tamizhvendan S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamizhvendan/gitbook-plugin-empty-line/issues"
+  },
+  "homepage": "https://github.com/tamizhvendan/gitbook-plugin-empty-line#readme"
+}
